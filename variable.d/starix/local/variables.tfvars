@@ -48,22 +48,90 @@ user_groups = {
   "nexops" = {
     rancher_admin = true
     members = [
-      "josh.tran",
       "dennis.le",
-      "troy.vo",
+      "josh.tran",
       "ken.nguyen",
       "larry.tran",
       "owen.dang",
+      "troy.vo",
     ]
   }
   "nexpe" = {
     rancher_admin = false
     members = [
-      "mason.le",
       "alex.tran",
+      "mason.le",
     ]
   }
-
+  "novastar" = {
+    rancher_admin = false
+    members = [
+      "carlos.nguyen",
+      "frankie.nguyen",
+      "hank.nguyen",
+      "henry.dinh",
+      "jay.do",
+      "mira.nguyen",
+      "nexops.test",
+      "tim.trinh",
+    ]
+  }
+  "pioneers" = {
+    rancher_admin = false
+    members = [
+      "alvin.nguyen",
+      "andy.nguyen",
+      "bobby.nguyen",
+      "duke.nguyen",
+      "egan.le",
+      "ethan.nguyen",
+      "jack.nguyen",
+      "jerry.tran",
+      "kan.nguyen",
+      "louis.nguyen",
+      "oliver.dang",
+      "phillip.truong",
+      "razor.nguyen",
+    ]
+  }
+  "synergy" = {
+    rancher_admin = false
+    members = [
+      "agnes.tran",
+      "charles.nguyen",
+      "franklin.nguyen",
+      "jacob.phan",
+      "kaden.trinh",
+      "levi.vu",
+      "luca.duong",
+      "robert.tran",
+      "zane.trinh",
+    ]
+  }
+  "subarashi" = {
+    rancher_admin = false
+    members = [
+      "happy.duong",
+      "hogan.pham",
+      "hubert.duong",
+      "kai.le",
+      "kos.nguyen",
+      "victor.nguyen",
+      "walter.nguyen",
+    ]
+  }
+  "wabisabi" = {
+    rancher_admin = false
+    members = [
+      "adam.tran",
+      "diego.nguyen",
+      "hani.nguyen",
+      "jonathan.doan",
+      "leon.pham",
+      "lincoln.ha",
+      "terry.nguyen",
+    ]
+  }
 }
 
 # REQUIRED VARIABLE SET [rancher_cred]

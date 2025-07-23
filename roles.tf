@@ -24,6 +24,7 @@ resource "rancher2_role_template" "cluster_no_permission" {
 }
 
 # Create Project Role without catalog permission
+### code: pmc ###
 resource "rancher2_role_template" "custom_project_member" {
   name              = "Custom Project Member"
   context           = "project"
@@ -97,6 +98,7 @@ resource "rancher2_role_template" "custom_project_member" {
   }
 }
 
+### code: roc ###
 resource "rancher2_role_template" "custom_project_readonly" {
   name              = "Custom Project ReadOnly"
   context           = "project"
@@ -180,6 +182,7 @@ resource "rancher2_role_template" "custom_project_readonly" {
   }
 }
 
+### code: pmr ###
 resource "rancher2_role_template" "project_member_restricted" {
   name              = "Custom Project Member Restricted"
   context           = "project"
