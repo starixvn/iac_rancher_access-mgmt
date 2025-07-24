@@ -101,6 +101,16 @@ clusters_ac = {
           }
         }
       }
+      "hrm" = {
+        roles = {
+          "pmc" = { # Project Member Custom
+            group_members = [
+              "novastar",
+            ]
+            members = []
+          }
+        }
+      }
     }
   }
   "st-nexprod" = {
