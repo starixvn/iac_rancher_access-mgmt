@@ -4,6 +4,23 @@ cluster_env = "prod"
 
 # Access Controll Management
 clusters_ac = {
+  "eks-sc-prod" = {
+    projects = {
+      "pentagon" = {
+        name        = "pentagon"
+        description = "project for Pentagon Teams"
+        roles = {
+          "pmr" = { # Project Member Restricted
+            group_members = [
+              "pentagon-prod",
+            ]
+            members = []
+          }
+        }
+      }
+    }
+  }
+
   "sc-prod" = {
     projects = {
       "pentagon" = {
@@ -17,6 +34,23 @@ clusters_ac = {
           "pmr" = { # Project Member Restricted
             group_members = [
               "pentagon-prod",
+            ]
+            members = []
+          }
+        }
+      }
+    }
+  }
+
+  "eks-sc-uat" = {
+    projects = {
+      "pentagon" = {
+        name        = "pentagon"
+        description = "project for Pentagon Teams"
+        roles = {
+          "pmc" = { # Project Member Custom
+            group_members = [
+              "pentagon-uat",
             ]
             members = []
           }
