@@ -6,18 +6,96 @@ cluster_env = "local"
 clusters_ac = {
   "st-local" = { # Cluster on Rancher
     projects = {
-      "ops" = {
-        name        = "ops"
-        description = "Project for Ops Services"
-        roles       = {}
-      }
       "nexpe" = {
-        name        = "nexpe"
-        description = "project for NexPE Teams"
         roles = {
           "pmc" = { # Project Member Custom
             group_members = [
               "nexpe",
+            ]
+            members = []
+          }
+        }
+      }
+      "ai" = {
+        roles = {
+          "pmc" = { # Project Member Custom
+            group_members = [
+              "wabisabi",
+            ]
+            members = []
+          }
+        }
+      }
+      "alpha" = {
+        roles = {
+          "pmc" = { # Project Member Custom
+            group_members = [
+              "pioneers",
+            ]
+            members = []
+          }
+        }
+      }
+      "fanex" = {
+        roles = {
+          "pmc" = { # Project Member Custom
+            group_members = [
+              "pioneers",
+              "synergy",
+            ]
+            members = []
+          }
+        }
+      }
+      "fps" = {
+        roles = {
+          "pmc" = { # Project Member Custom
+            group_members = [
+              "wabisabi",
+            ]
+            members = []
+          }
+        }
+      }
+      "lap" = {
+        roles = {
+          "pmc" = { # Project Member Custom
+            group_members = [
+              "subarashi",
+            ]
+            members = []
+          }
+        }
+      }
+      "licensee" = {
+        roles = {
+          "pmc" = { # Project Member Custom
+            group_members = [
+              "subarashi",
+            ]
+            members = []
+          }
+        }
+      }
+      "nap" = {
+        roles = {
+          "pmc" = { # Project Member Custom
+            group_members = [
+              "novastar",
+              "pioneers",
+              "synergy",
+              "subarashi",
+              "wabisabi",
+            ]
+            members = []
+          }
+        }
+      }
+      "telegrambot" = {
+        roles = {
+          "pmc" = { # Project Member Custom
+            group_members = [
+              "pioneers",
             ]
             members = []
           }
@@ -28,8 +106,6 @@ clusters_ac = {
   "st-nexprod" = {
     projects = {
       "nexpe" = {
-        name        = "nexpe"
-        description = "project for NexPE Teams"
         roles = {
           "pmc" = { # Project Member Custom
             group_members = [
