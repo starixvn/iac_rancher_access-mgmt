@@ -91,16 +91,6 @@ clusters_ac = {
           }
         }
       }
-      "telegrambot" = {
-        roles = {
-          "pmc" = { # Project Member Custom
-            group_members = [
-              "pioneers",
-            ]
-            members = []
-          }
-        }
-      }
       "hrm" = {
         roles = {
           "pmc" = { # Project Member Custom
