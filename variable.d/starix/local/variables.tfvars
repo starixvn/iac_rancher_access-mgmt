@@ -113,6 +113,7 @@ clusters_ac = {
       }
     }
   }
+
   "st-nexprod" = {
     projects = {
       "nexpe" = {
@@ -202,6 +203,7 @@ user_groups = {
       "hubert.duong",
       "kai.le",
       "kos.nguyen",
+      "quinn.vo",
       "victor.nguyen",
       "walter.nguyen",
     ]
