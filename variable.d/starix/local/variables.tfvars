@@ -67,16 +67,6 @@ clusters_ac = {
           }
         }
       }
-      "licensee" = {
-        roles = {
-          "pmc" = { # Project Member Custom
-            group_members = [
-              "subarashi",
-            ]
-            members = []
-          }
-        }
-      }
       "aff" = {
         roles = {
           "pmc" = { # Project Member Custom
