@@ -77,6 +77,16 @@ clusters_ac = {
           }
         }
       }
+      "aff" = {
+        roles = {
+          "pmc" = { # Project Member Custom
+            group_members = [
+              "subarashi",
+            ]
+            members = []
+          }
+        }
+      }
       "nap" = {
         roles = {
           "pmc" = { # Project Member Custom
