@@ -136,7 +136,7 @@ user_groups = {
     members = [
       # "alice.le",
       "billy.bui",
-      # "brian.nguyen",
+      "brian.nguyen",
       "conall.nguyen",
       "david.tran",
       # "dory.vu",
