@@ -147,6 +147,7 @@ user_groups = {
       "roger.le",
       "vivian.nguyen",
       "zephyr.nguyen",
+      "nexops.test",
       # "alice.le",
       # "cruz.huynh",
       # "dory.vu",
