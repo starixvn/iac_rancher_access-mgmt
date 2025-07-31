@@ -30,9 +30,10 @@ user_groups = {
   "nexops" = {
     rancher_admin = true
     members = [
+      "dennis.le",
       "josh.tran",
-      "troy.vo",
       "larry.tran",
+      "troy.vo",
     ]
   }
 
