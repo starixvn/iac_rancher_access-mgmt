@@ -143,11 +143,12 @@ user_groups = {
       "elton.ton",
       "eros.pham",
       "lucian.vo",
+      "nexops.test",
       "ricky.nguyen",
       "roger.le",
       "vivian.nguyen",
+      "wynn.ton",
       "zephyr.nguyen",
-      "nexops.test",
       # "alice.le",
       # "cruz.huynh",
       # "dory.vu",
@@ -164,7 +165,6 @@ user_groups = {
       # "scofield.huynh",
       # "theresa.le",
       # "tracy.hoang",
-      # "wynn.ton",
     ]
   }
 
