@@ -246,6 +246,11 @@ resource "rancher2_role_template" "project_member_restricted" {
   }
   rules {
     api_groups = [""]
+    resources  = ["pods/exec"]
+    verbs      = ["create"]
+  }
+  rules {
+    api_groups = [""]
     resources  = ["services"]
     verbs      = ["*"]
   }
