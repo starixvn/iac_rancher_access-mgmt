@@ -181,7 +181,7 @@ user_groups = {
       "ricky.nguyen",
       "roger.le",
       "vivian.nguyen",
-      # "dwight.tran",
+      "dwight.tran",
       # "quinn.vo",
       # "scofield.huynh",
     ]
