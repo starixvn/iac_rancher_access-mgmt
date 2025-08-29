@@ -150,7 +150,7 @@ user_groups = {
       "wynn.ton",
       "zephyr.nguyen",
       # "alice.le",
-      # "cruz.huynh",
+      "cruz.huynh",
       # "dory.vu",
       "dwight.tran",
       # "elias.ngo",
