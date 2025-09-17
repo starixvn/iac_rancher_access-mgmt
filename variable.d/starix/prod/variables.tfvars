@@ -120,6 +120,7 @@ user_groups = {
       "larry.tran",
       "dennis.le",
       "troy.vo",
+      "owen.dang",
     ]
   }
 
@@ -137,9 +138,11 @@ user_groups = {
       "billy.bui",
       "brian.nguyen",
       "conall.nguyen",
+      "cruz.huynh",
       "david.tran",
       "draco.nguyen",
       "drake.doi",
+      "dwight.tran",
       "elton.ton",
       "eros.pham",
       "lucian.vo",
@@ -150,9 +153,7 @@ user_groups = {
       "wynn.ton",
       "zephyr.nguyen",
       # "alice.le",
-      "cruz.huynh",
       # "dory.vu",
-      "dwight.tran",
       # "elias.ngo",
       # "elio.nguyen",
       # "emi.tu",
