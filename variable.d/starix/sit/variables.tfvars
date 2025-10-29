@@ -114,6 +114,7 @@ user_groups = {
       "josh.tran",
       "larry.tran",
       "troy.vo",
+      "owen.dang",
     ]
   }
   "nexpe" = {
