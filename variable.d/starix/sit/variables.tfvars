@@ -144,11 +144,11 @@ user_groups = {
       "oliver.dang",
       "phillip.truong",
       "razor.nguyen",
-      # "bobby.nguyen",
-      # "duke.nguyen",
-      # "jack.nguyen",
-      # "jerry.tran",
-      # "kan.nguyen",
+      "bobby.nguyen",
+      "duke.nguyen",
+      "jack.nguyen",
+      "jerry.tran",
+      "kan.nguyen",
     ]
   }
   "synergy" = {
@@ -160,8 +160,8 @@ user_groups = {
       "luca.duong",
       "robert.tran",
       "zane.trinh",
-      # "charles.nguyen",
-      # "franklin.nguyen",
+      "charles.nguyen",
+      "franklin.nguyen",
     ]
   }
   "subarashi" = {
@@ -171,9 +171,9 @@ user_groups = {
       "kai.le",
       "quinn.vo",
       "victor.nguyen",
-      # "hogan.pham",
-      # "kos.nguyen",
-      # "walter.nguyen",
+      "hogan.pham",
+      "kos.nguyen",
+      "walter.nguyen",
     ]
   }
   "wabisabi" = {
@@ -181,11 +181,11 @@ user_groups = {
       "adam.tran",
       "diego.nguyen",
       "terry.nguyen",
-      # "hani.nguyen",
-      # "jonathan.doan",
-      # "leon.pham",
-      # "lincoln.ha",
-      # "tony.nguyen",
+      "hani.nguyen",
+      "jonathan.doan",
+      "leon.pham",
+      "lincoln.ha",
+      "tony.nguyen",
     ]
   }
 
