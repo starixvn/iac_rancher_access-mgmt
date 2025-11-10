@@ -17,6 +17,7 @@ variable "rancher-url" {
       sit   = "https://rancher.playonesit.com"
       kbt   = "https://rancher.starixplay.com"
       prod  = "https://rancher-klp.starixplay.com"
+      dr    = "https://rancher.dr.starixplay.com"
     }
     lumi = {
       local = "https://rancher.lumigame.com"
