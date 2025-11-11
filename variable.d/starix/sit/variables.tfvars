@@ -159,7 +159,7 @@ user_groups = {
       "robert.tran",
       # "agnes.tran",
       # "franklin.nguyen",
-      # "kaden.trinh",
+      "kaden.trinh",
       # "levi.vu",
       # "luca.duong",
       # "zane.trinh",
