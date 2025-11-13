@@ -156,13 +156,13 @@ user_groups = {
     members = [
       "charles.nguyen",
       "jacob.phan",
+      "kaden.trinh",
       "robert.tran",
+      "zane.trinh",
       # "agnes.tran",
       # "franklin.nguyen",
-      "kaden.trinh",
       # "levi.vu",
       # "luca.duong",
-      # "zane.trinh",
     ]
   }
   "subarashi" = {
