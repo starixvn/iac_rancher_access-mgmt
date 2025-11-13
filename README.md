@@ -2,15 +2,34 @@
 
 ## Purpose
 
-- Centralize and automate Rancher access management.
-- Support multi-organization and multi-environment deployments.
-- Ensure secure secret handling via Vault.
-- Provide a clear structure for all team members to understand and contribute.
+- Provide a clear, automated, and secure approach to managing Rancher access control.
+- Ensure all team members understand the structure and workflow for access management.
+- Support multi-organization and multi-environment deployments with modular configuration.
+- Integrate secret management for enhanced security.
+
+---
+## Architecture Overview
+
+The `access-mgmt` directory manages access control and permissions for Rancher clusters using Terraform. The structure is modular and environment-driven, supporting multiple organizations and deployment stages.
+
+### Main Components
+
+- **Terraform Root Files**  
+  - `main.tf`, `provider.tf`, `variables.tf`, `outputs.tf`, `locals.tf`: Core configuration, provider setup, variable and output definitions.
+  - `access_control.tf`: Defines access control rules and policies.
+  - `roles.tf`: Manages roles and role bindings for Rancher.
+  - `clusters-components.tf`: Manages cluster-level components and their access.
+  - `vault-secrets.tf`: Integrates secret management via Vault.
+
+- **variable.d**  
+  - Contains environment-specific configuration for each organization (`lumi`, `starix`) and environment (`local`, `prod`, `sit`, `kbt`).
+  - Each environment has its own `backend.conf` and `variables.tfvars` for state and variable management.
+
+- **CI/CD**  
+  - `.gitlab-ci.yml`: Automates validation, planning, and deployment of access control changes.
 
 ---
 ## Directory Structure
-
-The `access-mgmt` directory is designed for managing Rancher cluster access and permissions using Terraform. It is organized to support multiple organizations and environments, with modular configuration and secret management.
 
 ### Top-Level Files
 
