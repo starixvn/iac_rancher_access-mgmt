@@ -138,18 +138,18 @@ user_groups = {
   "pioneers" = {
     members = [
       "alvin.nguyen",
-      "andy.nguyen",
-      "egan.le",
-      # "ethan.nguyen",
-      # "louis.nguyen",
-      # "oliver.dang",
-      # "phillip.truong",
-      # "razor.nguyen",
+      "razor.nguyen",
+      # "andy.nguyen",
       # "bobby.nguyen",
       # "duke.nguyen",
+      # "egan.le",
+      # "ethan.nguyen",
       # "jack.nguyen",
       # "jerry.tran",
       # "kan.nguyen",
+      # "louis.nguyen",
+      # "oliver.dang",
+      # "phillip.truong",
     ]
   }
   "synergy" = {
