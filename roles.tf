@@ -294,6 +294,11 @@ resource "rancher2_role_template" "management_role_nexpe" {
     verbs      = ["*"]
   }
   rules {
+    api_groups = ["longhorn.io"]
+    resources  = ["*"]
+    verbs      = ["get", "list", "watch"]
+  }
+  rules {
     api_groups = ["metrics.k8s.io"]
     resources  = ["pods"]
     verbs      = ["get", "list", "watch"]
