@@ -139,7 +139,7 @@ user_groups = {
     members = [
       "alvin.nguyen",
       "andy.nguyen",
-      # "egan.le",
+      "egan.le",
       # "ethan.nguyen",
       # "louis.nguyen",
       # "oliver.dang",
