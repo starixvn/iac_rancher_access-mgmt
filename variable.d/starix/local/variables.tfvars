@@ -186,6 +186,7 @@ user_groups = {
     members = [
       "alex.tran",
       "mason.le",
+      "nexops.test",
     ]
   }
   "novastar" = {
@@ -197,7 +198,6 @@ user_groups = {
       "henry.dinh",
       "jay.do",
       "mira.nguyen",
-      "nexops.test",
       "tim.trinh",
     ]
   }
