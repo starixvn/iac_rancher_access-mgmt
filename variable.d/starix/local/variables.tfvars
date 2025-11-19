@@ -24,6 +24,12 @@ clusters_ac = {
             ]
             members = []
           }
+          "nxpe" = {
+            group_members = [
+              "nexpe",
+            ]
+            members = []
+          }
         }
       }
       "alpha" = {
@@ -31,6 +37,12 @@ clusters_ac = {
           "pmc" = { # Project Member Custom
             group_members = [
               "pioneers",
+            ]
+            members = []
+          }
+          "nxpe" = {
+            group_members = [
+              "nexpe",
             ]
             members = []
           }
@@ -45,6 +57,12 @@ clusters_ac = {
             ]
             members = []
           }
+          "nxpe" = {
+            group_members = [
+              "nexpe",
+            ]
+            members = []
+          }
         }
       }
       "fps" = {
@@ -52,6 +70,12 @@ clusters_ac = {
           "pmc" = { # Project Member Custom
             group_members = [
               "wabisabi",
+            ]
+            members = []
+          }
+          "nxpe" = {
+            group_members = [
+              "nexpe",
             ]
             members = []
           }
@@ -65,6 +89,12 @@ clusters_ac = {
             ]
             members = []
           }
+          "nxpe" = {
+            group_members = [
+              "nexpe",
+            ]
+            members = []
+          }
         }
       }
       "aff" = {
@@ -72,6 +102,12 @@ clusters_ac = {
           "pmc" = { # Project Member Custom
             group_members = [
               "subarashi",
+            ]
+            members = []
+          }
+          "nxpe" = {
+            group_members = [
+              "nexpe",
             ]
             members = []
           }
@@ -89,6 +125,12 @@ clusters_ac = {
             ]
             members = []
           }
+          "nxpe" = {
+            group_members = [
+              "nexpe",
+            ]
+            members = []
+          }
         }
       }
       "hrm" = {
@@ -96,6 +138,12 @@ clusters_ac = {
           "pmc" = { # Project Member Custom
             group_members = [
               "novastar",
+            ]
+            members = []
+          }
+          "nxpe" = {
+            group_members = [
+              "nexpe",
             ]
             members = []
           }

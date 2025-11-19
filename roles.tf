@@ -260,3 +260,83 @@ resource "rancher2_role_template" "project_member_restricted" {
     verbs      = ["get", "list", "watch", "create", "update", "patch"]
   }
 }
+
+
+### code: nxpe ###
+resource "rancher2_role_template" "management_role_nexpe" {
+  name              = "NexPE Management"
+  context           = "project"
+  description       = "Terraform role - Project Member without DELETE Deploy Permission"
+  role_template_ids = ["view"]
+  rules {
+    api_groups = ["management.cattle.io"]
+    resources  = ["projectroletemplatebindings"]
+    verbs      = ["get", "list", "watch"]
+  }
+  rules {
+    api_groups = [""]
+    resources  = ["persistentvolumes"]
+    verbs      = ["get", "list", "watch"]
+  }
+  rules {
+    api_groups = ["storage.k8s.io"]
+    resources  = ["storageclasses"]
+    verbs      = ["get", "list", "watch"]
+  }
+  rules {
+    api_groups = ["apiregistration.k8s.io"]
+    resources  = ["apiservices"]
+    verbs      = ["get", "list", "watch"]
+  }
+  rules {
+    api_groups = [""]
+    resources  = ["persistentvolumeclaims"]
+    verbs      = ["*"]
+  }
+  rules {
+    api_groups = ["metrics.k8s.io"]
+    resources  = ["pods"]
+    verbs      = ["get", "list", "watch"]
+  }
+  rules {
+    api_groups = ["management.cattle.io"]
+    resources  = ["clusterevents"]
+    verbs      = ["get", "list", "watch"]
+  }
+  rules {
+    api_groups = ["management.cattle.io"]
+    resources  = ["projectloggings"]
+    verbs      = ["get", "list", "watch"]
+  }
+  rules {
+    api_groups = ["monitoring.coreos.com"]
+    resources  = ["prometheuses", "prometheusrules", "servicemonitors"]
+    verbs      = ["*"]
+  }
+  rules {
+    api_groups     = ["management.cattle.io"]
+    resource_names = ["local"]
+    resources      = ["clusters"]
+    verbs          = ["get"]
+  }
+  rules {
+    api_groups = ["apps"]
+    resources  = ["deployments", "statefulsets", "daemonsets", "replicasets"]
+    verbs      = ["get", "list", "watch"]
+  }
+  rules {
+    api_groups = [""]
+    resources  = ["pods/exec"]
+    verbs      = ["get", "create"]
+  }
+  rules {
+    api_groups = [""]
+    resources  = ["services"]
+    verbs      = ["*"]
+  }
+  rules {
+    api_groups = ["networking.k8s.io"]
+    resources  = ["ingresses"]
+    verbs      = ["get", "list", "watch"]
+  }
+}

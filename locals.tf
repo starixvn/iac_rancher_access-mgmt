@@ -131,7 +131,8 @@ locals {
       role_template_id = (user.role == "roc" ?
         rancher2_role_template.custom_project_readonly.id : user.role == "pmc" ?
         rancher2_role_template.custom_project_member.id : user.role == "pmr" ?
-        rancher2_role_template.project_member_restricted.id : ""
+        rancher2_role_template.project_member_restricted.id : user.role == "nxpe" ?
+        rancher2_role_template.management_role_nexpe.id : ""
       )
     }
   ])
