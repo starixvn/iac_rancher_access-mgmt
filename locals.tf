@@ -59,8 +59,8 @@ locals {
         ],
         [
           for role, role_details in project_details.roles :
-          length(role_details.members) > 0 ? [
-            for member in role_details.members : {
+          length(lookup(role_details, "members", [])) > 0 ? [
+            for member in lookup(role_details, "members", []) : {
               cluster = "${cluster}"
               name    = "${member}"
             }
