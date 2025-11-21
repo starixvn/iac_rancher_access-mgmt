@@ -7,17 +7,9 @@ clusters_ac = {
   "sc-sit" = { # Cluster on Rancher
     projects = {
       "pentagon" = {
-        description = "project for Pentagon Teams"
         roles = {
-          "roc" = { # Project ReadOnly Member Custom
-            group_members = []
-            members       = []
-          }
           "pmc" = { # Project Member Custom
-            group_members = [
-              "pentagon-sit",
-            ]
-            members = []
+            group_members = ["pentagon-sit"]
           }
         }
       }
@@ -29,32 +21,20 @@ clusters_ac = {
       "ai" = {
         roles = {
           "pmc" = { # Project Member Custom
-            group_members = [
-              "wabisabi",
-            ]
-            members = []
+            group_members = ["wabisabi"]
           }
           "nxpe" = {
-            group_members = [
-              "nexpe",
-            ]
-            members = []
+            group_members = ["nexpe"]
           }
         }
       }
       "alpha" = {
         roles = {
           "pmc" = { # Project Member Custom
-            group_members = [
-              "pioneers",
-            ]
-            members = []
+            group_members = ["pioneers"]
           }
           "nxpe" = {
-            group_members = [
-              "nexpe",
-            ]
-            members = []
+            group_members = ["nexpe"]
           }
         }
       }
@@ -65,61 +45,39 @@ clusters_ac = {
               "pioneers",
               "synergy",
             ]
-            members = []
           }
           "nxpe" = {
-            group_members = [
-              "nexpe",
-            ]
-            members = []
+            group_members = ["nexpe"]
           }
         }
       }
       "fps" = {
         roles = {
           "pmc" = { # Project Member Custom
-            group_members = [
-              "wabisabi",
-            ]
-            members = []
+            group_members = ["wabisabi"]
           }
           "nxpe" = {
-            group_members = [
-              "nexpe",
-            ]
-            members = []
+            group_members = ["nexpe"]
           }
         }
       }
       "lap" = {
         roles = {
           "pmc" = { # Project Member Custom
-            group_members = [
-              "subarashi",
-            ]
-            members = []
+            group_members = ["subarashi"]
           }
           "nxpe" = {
-            group_members = [
-              "nexpe",
-            ]
-            members = []
+            group_members = ["nexpe"]
           }
         }
       }
       "aff" = {
         roles = {
           "pmc" = { # Project Member Custom
-            group_members = [
-              "subarashi",
-            ]
-            members = []
+            group_members = ["subarashi"]
           }
           "nxpe" = {
-            group_members = [
-              "nexpe",
-            ]
-            members = []
+            group_members = ["nexpe"]
           }
         }
       }
@@ -133,13 +91,9 @@ clusters_ac = {
               "subarashi",
               "wabisabi",
             ]
-            members = []
           }
           "nxpe" = {
-            group_members = [
-              "nexpe",
-            ]
-            members = []
+            group_members = ["nexpe"]
           }
         }
       }
@@ -199,12 +153,12 @@ user_groups = {
       "charles.nguyen",
       "jacob.phan",
       "kaden.trinh",
+      "luca.duong",
       "robert.tran",
       "zane.trinh",
       # "agnes.tran",
       # "franklin.nguyen",
       # "levi.vu",
-      "luca.duong",
     ]
   }
   "subarashi" = {
