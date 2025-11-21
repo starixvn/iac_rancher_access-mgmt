@@ -204,7 +204,7 @@ user_groups = {
       # "agnes.tran",
       # "franklin.nguyen",
       # "levi.vu",
-      # "luca.duong",
+      "luca.duong",
     ]
   }
   "subarashi" = {
