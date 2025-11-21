@@ -161,8 +161,8 @@ user_groups = {
   }
   "nexpe" = {
     members = [
-      # "alex.tran",
-      # "mason.le",
+      "alex.tran",
+      "mason.le",
     ]
   }
   "novastar" = {
