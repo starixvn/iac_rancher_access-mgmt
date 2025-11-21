@@ -7,14 +7,11 @@ clusters_ac = {
   "eks-sc-prod" = {
     projects = {
       "pentagon" = {
-        name        = "pentagon"
-        description = "project for Pentagon Teams"
         roles = {
           "pmr" = { # Project Member Restricted
             group_members = [
               "pentagon-prod",
             ]
-            members = []
           }
         }
       }
@@ -24,18 +21,9 @@ clusters_ac = {
   "sc-prod" = {
     projects = {
       "pentagon" = {
-        name        = "pentagon"
-        description = "project for Pentagon Teams"
         roles = {
-          "roc" = { # Project ReadOnly Member Custom
-            group_members = []
-            members       = []
-          }
           "pmr" = { # Project Member Restricted
-            group_members = [
-              "pentagon-prod",
-            ]
-            members = []
+            group_members = ["pentagon-prod"]
           }
         }
       }
@@ -45,14 +33,9 @@ clusters_ac = {
   "eks-sc-uat" = {
     projects = {
       "pentagon" = {
-        name        = "pentagon"
-        description = "project for Pentagon Teams"
         roles = {
           "pmc" = { # Project Member Custom
-            group_members = [
-              "pentagon-uat",
-            ]
-            members = []
+            group_members = ["pentagon-uat"]
           }
         }
       }
@@ -62,14 +45,9 @@ clusters_ac = {
   "sc-uat" = {
     projects = {
       "pentagon" = {
-        name        = "pentagon"
-        description = "project for Pentagon Teams"
         roles = {
           "pmc" = { # Project Member Custom
-            group_members = [
-              "pentagon-uat",
-            ]
-            members = []
+            group_members = ["pentagon-uat"]
           }
         }
       }
@@ -79,14 +57,9 @@ clusters_ac = {
   "k3sprod" = {
     projects = {
       "nexpe" = {
-        name        = "nexpe"
-        description = "project for NexPE Teams"
         roles = {
           "pmc" = { # Project Member Custom
-            group_members = [
-              "nexpe",
-            ]
-            members = []
+            group_members = ["nexpe"]
           }
         }
       }
@@ -96,14 +69,9 @@ clusters_ac = {
   "k3suat" = {
     projects = {
       "nexpe" = {
-        name        = "nexpe"
-        description = "project for NexPE Teams"
         roles = {
           "pmc" = { # Project Member Custom
-            group_members = [
-              "nexpe",
-            ]
-            members = []
+            group_members = ["nexpe"]
           }
         }
       }
