@@ -10,5 +10,5 @@ include:
 variables:
   VAULT_JWT_BACKEND: "jwt-gitlab"
   TF_VAR_vault_role: "rancher-access-mgmt"
-  AUTO_APPPROVE: true
+  AUTO_APPPROVE: false
   DEBUG: 0
