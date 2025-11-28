@@ -243,7 +243,7 @@ user_groups = {
       "kos.nguyen",
       "quinn.vo",
       "victor.nguyen",
-      "walter.nguyen",
+      "cody.nguyen",
     ]
   }
   "wabisabi" = {
