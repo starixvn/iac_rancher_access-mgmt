@@ -86,6 +86,18 @@ clusters_ac = {
           }
         }
       }
+      "12b" = {
+        roles = {
+          "pmc" = { # Project Member Custom
+            group_members = [
+              "subarashi",
+            ]
+          }
+          "nxpe" = {
+            group_members = ["nexpe"]
+          }
+        }
+      }
       "nap" = {
         roles = {
           "pmc" = { # Project Member Custom
