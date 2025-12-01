@@ -48,8 +48,8 @@ locals {
       concat(
         [
           for role, role_details in project_details.roles :
-          length(role_details.group_members) > 0 ? [
-            for group in role_details.group_members : [
+          length(lookup(role_details, "group_members", [])) > 0 ? [
+            for group in lookup(role_details, "group_members", []) : [
               for member in var.user_groups["${group}"].members : {
                 cluster = "${cluster}"
                 name    = "${member}"
@@ -92,8 +92,8 @@ locals {
         [
           # PARSER MEMBER ON GROUP
           for role, role_details in project_details.roles :
-          length(role_details.group_members) > 0 ? [
-            for group in role_details.group_members : [
+          length(lookup(role_details, "group_members", [])) > 0 ? [
+            for group in lookup(role_details, "group_members", []) : [
               for member in var.user_groups["${group}"].members : {
                 cluster = "${cluster}"
                 project = "${project}"

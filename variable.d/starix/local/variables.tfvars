@@ -9,10 +9,7 @@ clusters_ac = {
       "nexpe" = {
         roles = {
           "pmc" = { # Project Member Custom
-            group_members = [
-              "nexpe",
-            ]
-            members = []
+            group_members = ["nexpe"]
           }
         }
       }
@@ -22,13 +19,9 @@ clusters_ac = {
             group_members = [
               "wabisabi",
             ]
-            members = []
           }
           "nxpe" = {
-            group_members = [
-              "nexpe",
-            ]
-            members = []
+            group_members = ["nexpe"]
           }
         }
       }
@@ -38,13 +31,9 @@ clusters_ac = {
             group_members = [
               "pioneers",
             ]
-            members = []
           }
           "nxpe" = {
-            group_members = [
-              "nexpe",
-            ]
-            members = []
+            group_members = ["nexpe"]
           }
         }
       }
@@ -55,13 +44,9 @@ clusters_ac = {
               "pioneers",
               "synergy",
             ]
-            members = []
           }
           "nxpe" = {
-            group_members = [
-              "nexpe",
-            ]
-            members = []
+            group_members = ["nexpe"]
           }
         }
       }
@@ -71,13 +56,9 @@ clusters_ac = {
             group_members = [
               "wabisabi",
             ]
-            members = []
           }
           "nxpe" = {
-            group_members = [
-              "nexpe",
-            ]
-            members = []
+            group_members = ["nexpe"]
           }
         }
       }
@@ -87,13 +68,9 @@ clusters_ac = {
             group_members = [
               "subarashi",
             ]
-            members = []
           }
           "nxpe" = {
-            group_members = [
-              "nexpe",
-            ]
-            members = []
+            group_members = ["nexpe"]
           }
         }
       }
@@ -103,13 +80,9 @@ clusters_ac = {
             group_members = [
               "subarashi",
             ]
-            members = []
           }
           "nxpe" = {
-            group_members = [
-              "nexpe",
-            ]
-            members = []
+            group_members = ["nexpe"]
           }
         }
       }
@@ -123,13 +96,9 @@ clusters_ac = {
               "subarashi",
               "wabisabi",
             ]
-            members = []
           }
           "nxpe" = {
-            group_members = [
-              "nexpe",
-            ]
-            members = []
+            group_members = ["nexpe"]
           }
         }
       }
@@ -139,13 +108,19 @@ clusters_ac = {
             group_members = [
               "novastar",
             ]
-            members = []
           }
           "nxpe" = {
-            group_members = [
-              "nexpe",
-            ]
-            members = []
+            group_members = ["nexpe"]
+          }
+        }
+      }
+      "redmine" = {
+        roles = {
+          "pmc" = {
+            members = ["jacob.phan"]
+          }
+          "nxpe" = {
+            group_members = ["nexpe"]
           }
         }
       }
@@ -157,10 +132,7 @@ clusters_ac = {
       "nexpe" = {
         roles = {
           "pmc" = { # Project Member Custom
-            group_members = [
-              "nexpe",
-            ]
-            members = []
+            group_members = ["nexpe"]
           }
         }
       }
