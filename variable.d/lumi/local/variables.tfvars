@@ -69,6 +69,7 @@ user_groups = {
       "roger.le",
       "theresa.le",
       "tracy.hoang",
+      "vander.nguyen",
       "vivian.nguyen",
       "wynn.ton",
       "zephyr.nguyen",
