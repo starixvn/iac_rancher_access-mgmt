@@ -227,6 +227,10 @@ user_groups = {
       "jonathan.doan",
       "terry.nguyen",
       "tony.nguyen",
+      "long.luu",
+      "john.ngo",
+      "lando.vu",
+      "aida.tran",
       # "hani.nguyen",
       # "lincoln.ha",
     ]
