@@ -11,10 +11,7 @@ clusters_ac = {
         description = "project for NexPE Teams"
         roles = {
           "pmc" = { # Project Member Custom
-            group_members = [
-              "nexpe",
-            ]
-            members = []
+            group_members = ["nexpe", ]
           }
         }
       }
@@ -26,15 +23,10 @@ clusters_ac = {
         name        = "pentagon"
         description = "project for Pentagon Teams"
         roles = {
-          "roc" = { # Project ReadOnly Member Custom
-            group_members = []
-            members       = []
-          }
           "pmr" = { # Project Member Restricted
             group_members = [
               "pentagon-prod",
             ]
-            members = []
           }
         }
       }
@@ -45,10 +37,7 @@ clusters_ac = {
       "nexpe" = {
         roles = {
           "pmc" = { # Project Member Custom
-            group_members = [
-              "nexpe",
-            ]
-            members = []
+            group_members = ["nexpe", ]
           }
         }
       }
@@ -58,7 +47,9 @@ clusters_ac = {
             group_members = [
               "wabisabi",
             ]
-            members = []
+          }
+          "nxpe" = {
+            group_members = ["nexpe"]
           }
         }
       }
@@ -68,7 +59,9 @@ clusters_ac = {
             group_members = [
               "pioneers",
             ]
-            members = []
+          }
+          "nxpe" = {
+            group_members = ["nexpe"]
           }
         }
       }
@@ -79,7 +72,9 @@ clusters_ac = {
               "pioneers",
               "synergy",
             ]
-            members = []
+          }
+          "nxpe" = {
+            group_members = ["nexpe"]
           }
         }
       }
@@ -89,7 +84,9 @@ clusters_ac = {
             group_members = [
               "wabisabi",
             ]
-            members = []
+          }
+          "nxpe" = {
+            group_members = ["nexpe"]
           }
         }
       }
@@ -99,7 +96,9 @@ clusters_ac = {
             group_members = [
               "subarashi",
             ]
-            members = []
+          }
+          "nxpe" = {
+            group_members = ["nexpe"]
           }
         }
       }
@@ -109,7 +108,9 @@ clusters_ac = {
             group_members = [
               "subarashi",
             ]
-            members = []
+          }
+          "nxpe" = {
+            group_members = ["nexpe"]
           }
         }
       }
@@ -123,7 +124,9 @@ clusters_ac = {
               "subarashi",
               "wabisabi",
             ]
-            members = []
+          }
+          "nxpe" = {
+            group_members = ["nexpe"]
           }
         }
       }
@@ -137,7 +140,9 @@ clusters_ac = {
             group_members = [
               "pioneers",
             ]
-            members = []
+          }
+          "nxpe" = {
+            group_members = ["nexpe"]
           }
         }
       }
