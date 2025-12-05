@@ -142,7 +142,7 @@ user_groups = {
       "ethan.nguyen",
       # "jack.nguyen",
       # "jerry.tran",
-      # "kan.nguyen",
+      "kan.nguyen",
       # "louis.nguyen",
       # "oliver.dang",
       # "phillip.truong",
